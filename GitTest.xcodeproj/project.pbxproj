@@ -16,6 +16,7 @@
 		15286AC32148E3A6008AE212 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15286AC22148E3A6008AE212 /* main.m */; };
 		15286ACD2148E3A6008AE212 /* GitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15286ACC2148E3A6008AE212 /* GitTestTests.m */; };
 		15286AD82148E3A6008AE212 /* GitTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15286AD72148E3A6008AE212 /* GitTestUITests.m */; };
+		15286AE72148E500008AE212 /* testViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15286AE62148E500008AE212 /* testViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		15286AD32148E3A6008AE212 /* GitTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15286AD72148E3A6008AE212 /* GitTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitTestUITests.m; sourceTree = "<group>"; };
 		15286AD92148E3A6008AE212 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15286AE52148E500008AE212 /* testViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testViewController.h; sourceTree = "<group>"; };
+		15286AE62148E500008AE212 /* testViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,8 @@
 				15286AC12148E3A6008AE212 /* Info.plist */,
 				15286AC22148E3A6008AE212 /* main.m */,
 				15286AB92148E3A5008AE212 /* GitTest.xcdatamodeld */,
+				15286AE52148E500008AE212 /* testViewController.h */,
+				15286AE62148E500008AE212 /* testViewController.m */,
 			);
 			path = GitTest;
 			sourceTree = "<group>";
@@ -269,6 +274,7 @@
 				15286AB52148E3A5008AE212 /* ViewController.m in Sources */,
 				15286AC32148E3A6008AE212 /* main.m in Sources */,
 				15286AB22148E3A5008AE212 /* AppDelegate.m in Sources */,
+				15286AE72148E500008AE212 /* testViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
