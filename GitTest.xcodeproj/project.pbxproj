@@ -17,6 +17,9 @@
 		15286ACD2148E3A6008AE212 /* GitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15286ACC2148E3A6008AE212 /* GitTestTests.m */; };
 		15286AD82148E3A6008AE212 /* GitTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15286AD72148E3A6008AE212 /* GitTestUITests.m */; };
 		15286AE72148E500008AE212 /* testViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15286AE62148E500008AE212 /* testViewController.m */; };
+		15286AEE2148EA48008AE212 /* NSString+AES128.m in Sources */ = {isa = PBXBuildFile; fileRef = 15286AE92148EA48008AE212 /* NSString+AES128.m */; };
+		15286AEF2148EA48008AE212 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 15286AEB2148EA48008AE212 /* README.md */; };
+		15286AF02148EA48008AE212 /* NSData+AES128.m in Sources */ = {isa = PBXBuildFile; fileRef = 15286AED2148EA48008AE212 /* NSData+AES128.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +59,11 @@
 		15286AD92148E3A6008AE212 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15286AE52148E500008AE212 /* testViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testViewController.h; sourceTree = "<group>"; };
 		15286AE62148E500008AE212 /* testViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testViewController.m; sourceTree = "<group>"; };
+		15286AE92148EA48008AE212 /* NSString+AES128.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AES128.m"; sourceTree = "<group>"; };
+		15286AEA2148EA48008AE212 /* NSData+AES128.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES128.h"; sourceTree = "<group>"; };
+		15286AEB2148EA48008AE212 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		15286AEC2148EA48008AE212 /* NSString+AES128.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AES128.h"; sourceTree = "<group>"; };
+		15286AED2148EA48008AE212 /* NSData+AES128.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES128.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +94,7 @@
 		15286AA42148E3A5008AE212 = {
 			isa = PBXGroup;
 			children = (
+				15286AE82148EA48008AE212 /* AES */,
 				15286AAF2148E3A5008AE212 /* GitTest */,
 				15286ACB2148E3A6008AE212 /* GitTestTests */,
 				15286AD62148E3A6008AE212 /* GitTestUITests */,
@@ -138,6 +147,18 @@
 				15286AD92148E3A6008AE212 /* Info.plist */,
 			);
 			path = GitTestUITests;
+			sourceTree = "<group>";
+		};
+		15286AE82148EA48008AE212 /* AES */ = {
+			isa = PBXGroup;
+			children = (
+				15286AE92148EA48008AE212 /* NSString+AES128.m */,
+				15286AEA2148EA48008AE212 /* NSData+AES128.h */,
+				15286AEB2148EA48008AE212 /* README.md */,
+				15286AEC2148EA48008AE212 /* NSString+AES128.h */,
+				15286AED2148EA48008AE212 /* NSData+AES128.m */,
+			);
+			path = AES;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,6 +266,7 @@
 			files = (
 				15286AC02148E3A6008AE212 /* LaunchScreen.storyboard in Resources */,
 				15286ABD2148E3A6008AE212 /* Assets.xcassets in Resources */,
+				15286AEF2148EA48008AE212 /* README.md in Resources */,
 				15286AB82148E3A5008AE212 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,7 +294,9 @@
 			files = (
 				15286ABB2148E3A5008AE212 /* GitTest.xcdatamodeld in Sources */,
 				15286AB52148E3A5008AE212 /* ViewController.m in Sources */,
+				15286AF02148EA48008AE212 /* NSData+AES128.m in Sources */,
 				15286AC32148E3A6008AE212 /* main.m in Sources */,
+				15286AEE2148EA48008AE212 /* NSString+AES128.m in Sources */,
 				15286AB22148E3A5008AE212 /* AppDelegate.m in Sources */,
 				15286AE72148E500008AE212 /* testViewController.m in Sources */,
 			);
